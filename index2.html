@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="X-Sib-npO_kcY4uOyAGZ1ndyv9fCk-O1xBk0iv53-Zs" />
+
+  <meta name="beskrivning" content="Den här är min första webbsida, som jag designade och kodade själv.
+  Här kan du läsa mitt CV, lite om mig och se en video på min första gruppuppgift i skolan.">
+
+<script src="javascript.js"></script>
+<link rel="stylesheet" href="style.css">
+
+
+<title>Kleopatras Hemsida</title>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Välkommen</h1>
+  <p>Den här är min första hemsida som är gjord som mitt första projekt och är mitt CV/Personliga brev.</p>
+  
+</div>
+
+<div class="topnav">
+  
+  <a class="active" href="index2.html">Hem</a>
+  <a href="mittcv.html">Mitt CV</a>
+  <a href="ommig.html">Om Mig</a>
+ </div>
+
+<div class="row">
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/617703766606610454/805413123518365696/144262940_420483739290110_7275896751350412125_n.jpg" style="width: 100%;" alt="En bild på Kleopatra">
+    
+  </div>
+  
+  <div class="column">
+    <h2 style="text-align: center;">Hej, mitt namn är (Kleo)patra Papadopoulou</h2>
+    <p class="textM">Jag är studerande interaktionsdesigner och kravhanterare och studerar på Chas Academy sedan hösten 2019. Skapa prototyper och planera workshops tycker jag att det är mest roliga med detta jobbet! Välkommen till min sida!</p>
+  </div>
+</div>
+
+
+
+
+<div class="footer">
+ 
+    <form onsubmit=sendMessage(event)  >
+
+        <h3>Kontakt</h3>
+ <label>
+          Namn:<br>
+          <input type="text" name="name" id="name"/> <br>
+ 
+          E-postadress:<br>
+          <input type="text" name="email" id="email"/> <br>
+ 
+          Meddelande:<br>
+          <textarea name="message" id="message" cols="45" rows="5"></textarea> <br>
+ 
+          <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet"/>
+        </label>
+    </form>
+    <h4 id="thankyouMessage" style="text-align: center; font-family: serif; font-size: 18px;"></h4>
+    
+</div>
+
+
+
+</body>
+</html>
